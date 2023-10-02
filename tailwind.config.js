@@ -10,7 +10,7 @@ module.exports = {
       colors: {
         primaryMain: "#120B48",
         primaryText: "#616163",
-        primaryHeadings: "#616163",
+        primaryHeadings: "#141414",
       },
     },
   },
