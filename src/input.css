@@ -21,3 +21,15 @@
 .page-spacers{
     @apply h-16 mx-auto bg-gray-100 border-0 rounded dark:bg-gray-700 mt-24
 }
+
+.titles{
+    @apply text-center font-sora text-primaryHeadings font-bold text-4xl mt-20;
+}
+
+.how-it-works-titles{
+    @apply text-primaryMain font-inter text-3xl font-bold ml-3 text-center mt-5;
+}
+
+.how-it-works-text{
+    @apply font-workSans text-primaryText text-xl text-center px-10 2xl:px-56 mt-5 leading-7 ;
+}
