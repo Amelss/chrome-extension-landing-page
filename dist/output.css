@@ -641,6 +641,10 @@ video {
   width: 550px;
 }
 
+.w-\[600px\]{
+  width: 600px;
+}
+
 .list-none{
   list-style-type: none;
 }
@@ -841,5 +845,9 @@ video {
 
   .\32xl\:w-\[650px\]{
     width: 650px;
+  }
+
+  .\32xl\:w-\[700px\]{
+    width: 700px;
   }
 }
