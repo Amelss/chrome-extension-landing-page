@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/dist/output.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
     <title>HelpMeOut</title>
-</head>
-<body>
-    <h1 class="text-green-500">Hello</h1>
-</body>
+  </head>
+  <body>
+    <div
+      class="md:hidden font-sora text-center grid place-items-center h-screen bg-gray-100"
+    >
+      <div class="text-primaryMain">
+        <h1 class="text-3xl">Sorry!</h1>
+        <p class="">Chrome Extensions are only available on Desktop!</p>
+      </div>
+    </div>
+
+    <div class="hidden md:block">
+      <nav class="hidden md:flex justify-between items-center md:px-16 py-8">
+        <img src="/assets/header-logo.png" alt="logo" class="w-40" />
+        <div class="font-sora">
+          <a href="#features" class="no-underline list-none">Features</a>
+          <a href="#how-it-works" class="no-underline list-none ml-5"
+            >How It Works</a
+          >
+        </div>
+        <div>
+          <p>Get Started</p>
+        </div>
+      </nav>
+      <hr class="h-1 mx-auto bg-gray-100 border-0 rounded dark:bg-gray-700" />
+    </div>
+  </body>
 </html>
