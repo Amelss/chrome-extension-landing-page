@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         workSans: ["Work Sans"],
         sora: ["Sora"],
+        inter: ["Inter"],
       },
       colors: {
         primaryMain: "#120B48",
